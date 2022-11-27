@@ -3,4 +3,13 @@
 body {
   background: rgb(172, 172, 172);
   text-align: center;
+}
+
+/* sections */
+.second-poem {
+  margin-top: 70px;
+}
+
+h2 {
+  color: rgb(0, 2, 95);
 }/*# sourceMappingURL=style.css.map */
