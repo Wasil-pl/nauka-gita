@@ -1,6 +1,10 @@
 /* variables */
 
 $color-body: #fcffcd;
+$color-container: #fff;
+$color-h1:  #00ffff;
+$color-h2: #00025f;
+$color-shadow: #42445a;
 
 /* Global */
 
@@ -16,9 +20,17 @@ body {
 }
 
 h2 {
-    color: rgb(0, 2, 95);
+    color: $color-h2;
 }
 
 h1 {
-    color: aqua;
+    color: $color-h1;
+}
+
+.container {
+    background: $color-container;
+    display: inline-block;
+    padding: 40px;
+    box-shadow: 8px 8px 24px 0px $color-shadow;
+    border-radius: 20px;
 }

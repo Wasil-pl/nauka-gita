@@ -11,9 +11,17 @@ body {
 }
 
 h2 {
-  color: rgb(0, 2, 95);
+  color: #00025f;
 }
 
 h1 {
-  color: aqua;
+  color: #00ffff;
+}
+
+.container {
+  background: #fff;
+  display: inline-block;
+  padding: 40px;
+  box-shadow: 8px 8px 24px 0px #42445a;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
